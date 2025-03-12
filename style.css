@@ -1,0 +1,40 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 2vh;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fdfcfc;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: larger;
+}
+button:hover{
+    background-color: #fc0404;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: x-large;
+}
+p{
+    font-size: 20px;
+    margin: 10px;
+}
